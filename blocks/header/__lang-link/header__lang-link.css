@@ -11,10 +11,7 @@
 
   width: 30px;
   height: 28px;
-  top: 24px;
 
-  display: flex;
-  justify-content: flex-end;
   color: #FFFFFF;
   background-color: green;
 }

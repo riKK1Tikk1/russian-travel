@@ -8,15 +8,18 @@
 
 
 .page {
-  /* min-width: 1024px; */
+  position: relative;
+  min-width: 1024px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
-  /* max-width: 1280px; */
+  max-width: 1280px;
   /* выше установили ограничение по максимальной ширине */
+  height: 6895px;
   margin: 0 auto;
   padding:0;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   background-color: #2A2C2F;
+
 
 }
