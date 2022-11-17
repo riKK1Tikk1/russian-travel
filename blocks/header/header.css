@@ -1,0 +1,14 @@
+.header {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 928px;
+  height: 52px;
+  left: 48px;
+  top: 28px;
+  background-color:  #2A2C2F;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

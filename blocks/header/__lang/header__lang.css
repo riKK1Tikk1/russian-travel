@@ -1,0 +1,8 @@
+.header__lang {
+  display: grid;
+  grid-template-columns: 30px 30px;
+  gap: 18px;
+  padding-top: 24px;
+
+  background-color: blue;
+}
