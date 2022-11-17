@@ -1,0 +1,9 @@
+.lead {
+  margin-top: 56px;
+  /* margin left and right are 48px on 1024 */
+  margin-left: 148px;
+  margin-right: 148px;
+  margin-bottom: 92px;
+
+  background-color: pink;
+}
