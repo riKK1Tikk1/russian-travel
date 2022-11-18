@@ -1,0 +1,6 @@
+.place__top {
+  margin: 0 0 48px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
