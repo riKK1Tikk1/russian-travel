@@ -1,4 +1,4 @@
 .cover__overlay {
-  background-color:  #2A2C2F;
-  opacity:  0.3;
+  background-color:  rgba(42, 44, 47, 0.3);
+  /* opacity:  0.3; */
 }

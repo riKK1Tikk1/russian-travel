@@ -1,0 +1,17 @@
+.footer {
+  margin: 0;
+  /* margin-top: 0;
+  margin-bottom: 24px;
+  padding: 92px auto 0 auto; */
+  padding: 92px 0 24px 0;
+
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  /* width: calc(100% - 96px); */
+
+  background: #2A2C2F;
+
+  /* space from left and right page borders */
+  justify-content: center;
+}
