@@ -7,3 +7,33 @@
 .place:last-of-type {
   margin: 0;
 }
+
+@media screen and (max-width: 499px){
+  .place {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px){
+  .place {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .place {
+    margin-bottom: 73px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .place {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    margin-bottom: 80px;
+  }
+}
