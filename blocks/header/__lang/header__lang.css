@@ -1,9 +1,23 @@
 .header__lang {
-  display: grid;
-  grid-template-columns: 30px 30px;
+  /* display: grid; */
+  /* grid-template-columns: 30px 30px; */
   gap: 18px;
-  padding-top: 24px;
-
+  /* padding-top: 24px; */
+  align-content: flex-end;
   /* remove after */
   background-color: blue;
+}
+
+@media screen and (max-width: 499px){
+  .header__lang {
+    display: grid;
+    grid-template-columns: 22px 22px;
+  }
+}
+
+@media screen and (min-width: 500px){
+  .header__lang {
+    display: grid;
+    grid-template-columns: 30px 30px;
+  }
 }
