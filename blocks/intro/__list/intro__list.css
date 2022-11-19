@@ -18,13 +18,13 @@
 }
 
 @media screen and (max-width: 499px){
-  .intro__text {
+  .intro__list {
     width: 100%;
   }
 }
 
 @media screen and (min-width: 500px) and (max-width: 767px){
-  .intro__text {
+  .intro__list {
     width: 100%;
   }
 }
@@ -36,14 +36,14 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
-  .intro__text {
+  .intro__list {
     width: 690px;
     height: 90px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .intro__text {
+  .intro__list {
     width: 690px;
     height: 90px;
   }
