@@ -2,15 +2,12 @@
   margin-top: 0;
   margin-bottom: 8px;
 
-  width: inherit;
-  /* width: 100%; */
-  min-height: 615px;
+  width: 100%;
+  padding-bottom:  62.5%;
 
-  /* aspect-ratio: 8 / 5; */
-  /* height: calc(100% * 5 / 8); */
 
   background-image: url(../../../images/lead-polka.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-
+  position: relative;
 }
