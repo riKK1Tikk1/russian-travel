@@ -11,6 +11,7 @@
   text-decoration: none;
 
   color: #FFFFFF;
+  text-rendering: optimizeLegibility;
 }
 
 .footer__link:hover {

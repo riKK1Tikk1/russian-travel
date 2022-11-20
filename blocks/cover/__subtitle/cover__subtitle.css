@@ -1,6 +1,4 @@
 .cover__subtitle {
-
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -19,6 +17,7 @@
 
   z-index: 4;
   opacity: 1;
+  text-rendering: optimizeLegibility;
 }
 
 

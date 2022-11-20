@@ -23,7 +23,6 @@
   align-self: center;
 
   color: white;
-
   /* background-color: red; */
 }
 
@@ -31,7 +30,6 @@
   .lead__title {
     margin-bottom: 16px;
     max-width: 288px;
-    /* height: 88px; */
     font-size: 40px;
     /* line-height: 44px; */
     line-height: 1.1;
@@ -42,10 +40,8 @@
   .lead__title {
     margin-bottom: 32px;
     max-width: 720px;
-    /* height: 200px; */
 
     font-size: 96px;
-    /* line-height: 100px; */
     line-height: 1.04;
 
   }

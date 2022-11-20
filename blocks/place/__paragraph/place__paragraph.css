@@ -8,6 +8,7 @@
   /* or 29px */
 
   color: #FFFFFF;
+  text-rendering: optimizeLegibility;
 }
 .place__paragraph:nth-of-type(2) {
   margin-top: 26px;

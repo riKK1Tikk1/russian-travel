@@ -9,7 +9,6 @@
   font-weight: 400;
   /* font-size: 30px;
   line-height: 36px; */
-  /* or 120% */
 
   /* width: 640px;
   height: 72px; */
@@ -20,6 +19,7 @@
   color: #FFFFFF;
 
   /* background-color: blue; */
+  text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 767px){
