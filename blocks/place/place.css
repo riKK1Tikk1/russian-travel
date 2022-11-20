@@ -26,14 +26,14 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px){
+@media screen and (min-width: 1024px) {
   .place {
     margin-bottom: 80px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .place {
     margin-bottom: 80px;
   }
-}
+} */

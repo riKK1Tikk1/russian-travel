@@ -19,10 +19,12 @@
   margin: 0 auto;
   padding:0;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   background-color: #2A2C2F;
 
   overflow: hidden;
+
+  box-sizing: border-box;
 
 
 }
