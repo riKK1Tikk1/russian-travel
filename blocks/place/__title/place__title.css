@@ -27,7 +27,7 @@
     margin: 0 16px 32px 16px;
     font-size: 32px;
     line-height: 1.09;
-    width: calc(100% - 32px);
+    max-width: calc(100% - 32px);
   }
 }
 
@@ -36,14 +36,14 @@
     margin: 0 20px 32px 20px;
     font-size: 38px;
     line-height: 1.1;
-    width: calc(100% - 40px);
+    max-width: calc(100% - 40px);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
   .place__title {
     margin: 0 28px 0 0;
-    width: 340px;
+    max-width: 340px;
     font-size: 42px;
     line-height: 1.1;
   }
@@ -52,7 +52,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px){
   .place__title {
     margin: 0 32px 0 0;
-    width: 440px;
+    max-width: 440px;
     font-size: 72px;
     line-height: 1.06;
   }
@@ -61,7 +61,7 @@
 @media screen and (min-width: 1280px) {
   .place__title {
     margin: 0 40px 0 0;
-    width: 460px;
+    max-width: 460px;
     font-size: 72px;
     line-height: 1.06;
   }

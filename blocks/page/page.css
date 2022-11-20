@@ -9,8 +9,9 @@
 
 .page {
   position: relative;
-  /* min-width: 1280px; */
-  width: 100%;
+  /* https://skr.sh/sH0DbUOdkNi проблема в том, что по макету весь основной контент нашей страницы не должен тянуться шире, чем на 1184рх */
+  max-width: 1280px;
+  /* width: 100%; */
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
   /* max-width: 1280px; */
@@ -22,7 +23,7 @@
   font-family: 'Inter', 'Arial', sans-serif;
   background-color: #2A2C2F;
 
-  overflow: hidden;
+  /* overflow: hidden; */
 
   box-sizing: border-box;
 

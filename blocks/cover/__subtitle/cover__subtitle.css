@@ -21,6 +21,8 @@
   opacity: 1;
 }
 
+
+
 @media screen and (max-width: 767px){
   .cover__subtitle {
     max-width: calc(100% - 32px);
@@ -31,8 +33,8 @@
 
 @media screen and (min-width: 768px){
   .cover__subtitle {
-    width: 360px;
-    height: 66px;
+    max-width: 360px;
+    /* height: 66px; */
     font-size: 18px;
     line-height: 1.22;
   }

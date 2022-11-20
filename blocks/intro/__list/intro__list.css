@@ -17,12 +17,12 @@
   /* background-color: red; */
 }
 
-@media screen and (max-width: 499px){
+@media screen and (max-width: 1023px){
   .intro__list {
-    width: 100%;
+    max-width: 100%;
   }
 }
-
+/*
 @media screen and (min-width: 500px) and (max-width: 767px){
   .intro__list {
     width: 100%;
@@ -33,18 +33,17 @@
   .intro__text {
     width: 100%;
   }
-}
-
+} */
+/*
 @media screen and (min-width: 1024px) and (max-width: 1279px){
   .intro__list {
     width: 690px;
-    height: 90px;
   }
-}
+} */
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .intro__list {
-    width: 690px;
-    height: 90px;
+    max-width: 690px;
+    /* height: 90px; */
   }
 }

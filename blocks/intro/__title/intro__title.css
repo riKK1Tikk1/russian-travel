@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 499px){
   .intro__title {
-    width: 100%;
+    max-width: 100%;
     font-size: 32px;
     line-height: 1.09;
     /* 35px */
@@ -33,7 +33,7 @@
 
 @media screen and (min-width: 500px) and (max-width: 767px){
   .intro__title {
-    width: 100%;
+    max-width: 100%;
     font-size: 50px;
     line-height: 1.07;
     /* line-height: 58px; */
@@ -42,7 +42,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
   .intro__title {
-    width: 100%;
+    max-width: 100%;
     font-size: 54px;
     line-height: 1.07;
   }
@@ -50,8 +50,8 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
   .intro__title {
-    width: 690px;
-    height: 58px;
+    max-width: 690px;
+    /* height: 58px; */
     font-size: 54px;
     line-height: 1.07;
   }
@@ -59,8 +59,8 @@
 
 @media screen and (min-width: 1280px) {
   .intro__title {
-    width: 690px;
-    height: 58px;
+    max-width: 690px;
+    /* height: 58px; */
     font-size: 54px;
     line-height: 1.07;
   }

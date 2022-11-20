@@ -18,8 +18,9 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  
+
   text-align: center;
+  align-self: center;
 
   color: white;
 
@@ -29,8 +30,8 @@
 @media screen and (max-width: 767px){
   .lead__title {
     margin-bottom: 16px;
-    width: 288px;
-    height: 88px;
+    max-width: 288px;
+    /* height: 88px; */
     font-size: 40px;
     /* line-height: 44px; */
     line-height: 1.1;
@@ -40,8 +41,8 @@
 @media screen and (min-width: 768px){
   .lead__title {
     margin-bottom: 32px;
-    width: 720px;
-    height: 200px;
+    max-width: 720px;
+    /* height: 200px; */
 
     font-size: 96px;
     /* line-height: 100px; */
