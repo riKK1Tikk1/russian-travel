@@ -1,16 +1,8 @@
 .footer {
   margin: 0;
-  /* padding: 92px 0 24px 0; */
   padding-bottom: 24px;
-
   display: flex;
-  /* flex-direction: row; */
-  /* justify-content: space-between; */
-  /* width: calc(100% - 96px); */
-
   background: #2A2C2F;
-
-  /* space from left and right page borders */
   justify-content: center;
 }
 
