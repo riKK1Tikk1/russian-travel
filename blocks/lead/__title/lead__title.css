@@ -3,22 +3,11 @@
   margin-right: auto;
   margin-left: auto;
 
-  /* width: 720px;
-  height: 200px; */
-
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 900;
-  /* font-size: 96px;
-  line-height: 100px; */
-  /* or 104% */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
 
+  text-rendering: optimizeLegibility;
   text-align: center;
   align-self: center;
 

@@ -3,21 +3,18 @@
   padding: 0;
   list-style-type: none;
 
-  /* width: 690px;
-  height: 90px; */
-
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-size: 12px;
   line-height: 1.5;
-  /* or 18px% */
+  /* or 18px */
 
   color: #FFFFFF;
   /* background-color: red; */
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1024px){
   .intro__list {
     max-width: 100%;
   }
