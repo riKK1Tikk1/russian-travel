@@ -1,11 +1,9 @@
 .lead__caption {
-  margin-top: 0;
-  margin-right: 0;
+  margin: 0;
   white-space: nowrap;
   text-overflow: ellipsis;
   padding: 0;
   max-width: 158px;
-
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -13,7 +11,6 @@
   line-height: 1.4;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-
   color: #FFFFFF;
   text-rendering: optimizeLegibility;
 }
@@ -36,13 +33,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px){
-  .lead__caption {
-    margin-left: 0;
-  }
-}
-
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px){
   .lead__caption {
     margin-left: 0;
   }

@@ -1,7 +1,6 @@
 .header__lang {
   gap: 18px;
   align-content: flex-end;
-  /* background-color: blue; */
 }
 
 @media screen and (max-width: 500px){

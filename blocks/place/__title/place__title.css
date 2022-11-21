@@ -2,9 +2,10 @@
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
   text-rendering: optimizeLegibility;
   color: #FFFFFF;
-  /* background-color: green; */
 }
 
 @media screen and (max-width: 500px){
@@ -38,8 +39,6 @@
   .place__title {
     margin: 0 32px 0 0;
     width: 440px;
-    font-size: 72px;
-    line-height: 1.06;
   }
 }
 
@@ -47,7 +46,5 @@
   .place__title {
     margin: 0 40px 0 0;
     width: 460px;
-    font-size: 72px;
-    line-height: 1.06;
   }
 }

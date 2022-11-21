@@ -2,15 +2,11 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-size: 12px;
   line-height: 1.5;
-  /* or 18px */
-
   color: #FFFFFF;
-  /* background-color: red; */
   text-rendering: optimizeLegibility;
 }
 

@@ -2,25 +2,20 @@
   margin-top: 0;
   margin-right: auto;
   margin-left: auto;
-
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 900;
-
   text-rendering: optimizeLegibility;
   text-align: center;
   align-self: center;
-
   color: white;
-  /* background-color: red; */
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
   .lead__title {
     margin-bottom: 16px;
     max-width: 288px;
     font-size: 40px;
-    /* line-height: 44px; */
     line-height: 1.1;
   }
 }
@@ -29,7 +24,6 @@
   .lead__title {
     margin-bottom: 32px;
     max-width: 720px;
-
     font-size: 96px;
     line-height: 1.04;
 

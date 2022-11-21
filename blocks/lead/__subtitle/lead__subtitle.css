@@ -2,16 +2,15 @@
   margin-top: 0;
   margin-right: auto;
   margin-left: auto;
-
+  max-width: 640px;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
-
   text-align: center;
   align-self: center;
+  font-size: 30px;
+  line-height: 1.2;
   color: #FFFFFF;
-
-  /* background-color: blue; */
   text-rendering: optimizeLegibility;
 }
 
@@ -27,17 +26,11 @@
 @media screen and (min-width: 768px) and (max-width: 1280px){
   .lead__subtitle {
     margin-bottom: 56px;
-    max-width: 640px;
-    font-size: 30px;
-    line-height: 1.2;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead__subtitle {
     margin-bottom: 64px;
-    max-width: 640px;
-    font-size: 30px;
-    line-height: 1.2;
   }
 }
