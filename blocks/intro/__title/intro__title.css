@@ -7,7 +7,7 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500.9px){
   .intro__title {
     max-width: 100%;
     font-size: 32px;
@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 768px){
+@media screen and (min-width: 501px) and (max-width: 767.9px){
   .intro__title {
     max-width: 100%;
     font-size: 50px;
@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1023.9px){
   .intro__title {
     max-width: 100%;
     font-size: 54px;
@@ -31,7 +31,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px){
+@media screen and (min-width: 1024px) and (max-width: 1279.9px){
   .intro__title {
     max-width: 690px;
     font-size: 54px;

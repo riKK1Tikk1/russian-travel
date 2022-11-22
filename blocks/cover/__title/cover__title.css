@@ -8,9 +8,8 @@
   font-weight: 900;
   text-rendering: optimizeLegibility;
   text-align: center;
-  color: #FFFFFF;
+  color: #FFF;
   z-index: 4;
-  opacity: 1;
 }
 
 @media screen and (max-width: 320.9px){

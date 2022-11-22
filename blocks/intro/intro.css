@@ -2,37 +2,35 @@
   width: 690px;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500.9px){
   .intro {
     width: calc(100% - 32px);
     margin: 0 16px 64px 16px;
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 768px){
+@media screen and (min-width: 501px) and (max-width: 767.9px){
   .intro {
     width: calc(100% - 40px);
     margin: 0 20px 70px 20px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1023.9px){
   .intro {
     width: calc(100% - 48px);
     margin: 0 24px 88px 24px;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px){
+@media screen and (min-width: 1024px) and (max-width: 1279.9px){
   .intro {
-    height: 429px;
     margin: 0 auto 92px 4.69%;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-    height: 429px;
     margin: 0 auto 92px 11.56%;
   }
 }
