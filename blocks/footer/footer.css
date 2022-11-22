@@ -4,23 +4,17 @@
   display: flex;
   background: #2A2C2F;
   justify-content: center;
+  flex-direction: column;
+  margin-left: 16px;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (min-width: 501px){
   .footer {
-    flex-direction: column;
-    margin-left: 16px;
-  }
-}
-
-@media screen and (min-width: 501px) and (max-width: 767px){
-  .footer {
-    flex-direction: column;
     margin-left: 20px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px){
   .footer {
     flex-direction: row;
     margin-left: 24px;
@@ -30,7 +24,6 @@
 
 @media screen and (min-width: 1024px){
   .footer {
-    flex-direction: row;
     margin-left: 48px;
     margin-right: 48px;
   }

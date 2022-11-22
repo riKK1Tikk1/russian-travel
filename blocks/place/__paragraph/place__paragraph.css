@@ -4,18 +4,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.63;
-  color: #FFF;
+  font-size: 16px;
+  color: white;
   text-rendering: optimizeLegibility;
 }
 
 .place__paragraph:last-of-type {
   margin: 0;
-}
-
-@media screen and (max-width: 1023px){
-  .place__paragraph {
-    font-size: 16px;
-  }
 }
 
 @media screen and (min-width: 1024px){

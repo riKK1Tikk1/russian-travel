@@ -1,13 +1,8 @@
 .place__top {
   display: flex;
-}
-
-@media screen and (max-width: 767px){
-  .place__top {
-    margin: 0 0 32px 0;
-    flex-direction: column;
-    align-items: flex-start;
-  }
+  margin: 0 0 32px 0;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 @media screen and (min-width: 768px){

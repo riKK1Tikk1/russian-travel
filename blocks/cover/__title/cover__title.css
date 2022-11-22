@@ -8,19 +8,14 @@
   font-weight: 900;
   text-rendering: optimizeLegibility;
   text-align: center;
-  color: #FFF;
+  color: white;
   z-index: 4;
+  max-width: 288px;
+  font-size: 32px;
+  line-height: 1.09;
 }
 
-@media screen and (max-width: 320px){
-  .cover__title {
-    max-width: 288px;
-    font-size: 32px;
-    line-height: 1.09;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 500px){
+@media screen and (min-width: 321px){
   .cover__title {
     max-width: 340px;
     font-size: 40px;
@@ -28,7 +23,7 @@
   }
 }
 
-@media screen and (min-width: 501px) and (max-width: 767px){
+@media screen and (min-width: 501px){
   .cover__title {
     max-width: 460px;
     font-size: 54px;

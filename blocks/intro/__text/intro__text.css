@@ -7,16 +7,11 @@
   line-height: 1.63;
   color: white;
   text-rendering: optimizeLegibility;
+  max-width: 100%;
 }
 
-  @media screen and (max-width: 1023px){
-    .intro__text {
-      max-width: 100%;
-    }
+@media screen and (min-width: 1024px){
+  .intro__text {
+    max-width: 690px;
   }
-
-  @media screen and (min-width: 1024px){
-    .intro__text {
-      max-width: 690px;
-    }
-  }
+}

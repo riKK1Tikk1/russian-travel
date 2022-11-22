@@ -1,18 +1,12 @@
 .header__lang {
-  gap: 18px;
   align-content: flex-end;
-}
-
-@media screen and (max-width: 500px){
-  .header__lang {
-    display: grid;
-    grid-template-columns: 22px 22px;
-  }
+  display: grid;
+  grid-template-columns: 22px 22px;
+  gap: 18px;
 }
 
 @media screen and (min-width: 501px){
   .header__lang {
-    display: grid;
     grid-template-columns: 30px 30px;
   }
 }
