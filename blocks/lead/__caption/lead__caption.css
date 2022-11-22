@@ -21,13 +21,13 @@
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 768px){
+@media screen and (min-width: 501px) and (max-width: 767px){
   .lead__caption {
     margin-left: 20px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
   .lead__caption {
     margin-left: 24px;
   }

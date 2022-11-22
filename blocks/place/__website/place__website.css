@@ -3,21 +3,21 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 500.9px){
+@media screen and (max-width: 500px){
   .place__website {
     margin: 0 16px 0 16px;
     max-width: calc(100% - 32px);
   }
 }
 
-@media screen and (min-width: 501px) and (max-width: 767.9px){
+@media screen and (min-width: 501px) and (max-width: 767px){
   .place__website {
     margin: 0 20px 0 20px;
     max-width: calc(100% - 40px);
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023.9px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
   .place__website {
     margin: 0;
     max-width: 352px;

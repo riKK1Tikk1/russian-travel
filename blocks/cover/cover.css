@@ -12,25 +12,25 @@
   object-fit: contain;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500.9px){
   .cover {
     margin-bottom: 64px;
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 768px){
+@media screen and (min-width: 501px) and (max-width: 767.9px){
   .cover {
     margin-bottom: 70px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1023.9px){
   .cover {
     margin-bottom: 88px;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px){
+@media screen and (min-width: 1024px) and (max-width: 1279.9px){
   .cover {
     margin-bottom: 92px;
   }

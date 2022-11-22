@@ -9,7 +9,7 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 320.9px){
+@media screen and (max-width: 320px){
   .cover__subtitle {
     max-width: 288px;
     font-size: 14px;
@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 500.9px){
+@media screen and (min-width: 321px) and (max-width: 500px){
   .cover__subtitle {
     max-width: 340px;
     font-size: 14px;
@@ -25,7 +25,7 @@
   }
 }
 
-@media screen and (min-width: 501px) and (max-width: 767.9px){
+@media screen and (min-width: 501px) and (max-width: 767px){
   .cover__subtitle {
     max-width: 360px;
     font-size: 16px;
