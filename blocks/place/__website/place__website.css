@@ -1,7 +1,6 @@
 .place__website {
   display: flex;
   flex-direction: column;
-  margin: 0;
 }
 
 @media screen and (max-width: 500px){
@@ -20,6 +19,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
   .place__website {
+    margin: 0;
     max-width: 352px;
     height: 46px;
   }
@@ -27,6 +27,7 @@
 
 @media screen and (min-width: 1024px) {
   .place__website {
+    margin: 0;
     max-width: 456px;
     height: 46px;
   }

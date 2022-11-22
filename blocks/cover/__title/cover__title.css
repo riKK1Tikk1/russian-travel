@@ -13,7 +13,7 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320.9px){
   .cover__title {
     max-width: 288px;
     font-size: 32px;
@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 500px){
+@media screen and (min-width: 321px) and (max-width: 500px){
   .cover__title {
     max-width: 340px;
     font-size: 40px;
