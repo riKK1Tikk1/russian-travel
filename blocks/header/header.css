@@ -27,18 +27,14 @@
 
 @media screen and (min-width: 768px){
   .header {
-    min-height: 52px;
     padding-top: 28px;
     margin-left: 24px;
     margin-right: 24px;
-    margin-bottom: 48px;
   }
 }
 
 @media screen and (min-width: 1024px){
   .header {
-    min-height: 52px;
-    padding-top: 28px;
     margin-left: 48px;
     margin-right: 48px;
     margin-bottom: 48px;
@@ -47,10 +43,6 @@
 
 @media screen and (min-width: 1280px){
   .header {
-    min-height: 52px;
-    padding-top: 28px;
-    margin-left: 48px;
-    margin-right: 48px;
     margin-bottom: 56px;
   }
 }
