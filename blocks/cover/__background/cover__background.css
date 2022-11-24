@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   max-width: 100%;
-  height: 62.5vw;
+  min-height: 62.5vw;
   z-index: 3;
   display: flex;
   flex-direction: column;
@@ -27,4 +27,10 @@
 
 .cover__background:hover::before {
   opacity: .8;
+}
+
+@media screen and (min-width: 1280px){
+  .cover__background {
+    min-height: 740px;
+  }
 }
